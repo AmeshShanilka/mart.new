@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Get Free From Us - M Art Creations</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+ /* Enhanced styling for the software cards */
+ .software-card {
+   border: 1px solid #eee;
+   padding: 30px 20px;
+   margin-bottom: 30px;
+   text-align: center;
+   border-radius: 15px;
+   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+   background: #fff;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+ }
+ 
+ .software-card:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 8px 25px rgba(187, 23, 209, 0.2);
+ }
+ 
+ .software-card img {
+   max-width: 120px;
+   height: 120px;
+   object-fit: contain;
+   margin: 0 auto 20px auto;
+   display: block;
+   transition: transform 0.3s ease;
+ }
+ 
+ .software-card:hover img {
+   transform: scale(1.1);
+ }
+ 
+ .software-card h3 {
+   font-size: 1.4em;
+   margin-bottom: 10px;
+   color: #333;
+   font-weight: 600;
+   text-align: center;
+ }
+ 
+ .software-card p {
+   font-size: 0.9em;
+   color: #666;
+   margin-bottom: 20px;
+   flex-grow: 1;
+   text-align: center;
+ }
+ 
+ .software-card .btn {
+   background: linear-gradient(45deg, #bb17d1, #d147e8);
+   border: none;
+   color: white;
+   padding: 12px 30px;
+   font-size: 0.95em;
+   font-weight: 600;
+   border-radius: 25px;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+   transition: all 0.3s ease;
+   position: relative;
+   overflow: hidden;
+   box-shadow: 0 4px 15px rgba(187, 23, 209, 0.3);
+ }
+ 
+ .software-card .btn::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: -100%;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+   transition: left 0.5s ease;
+ }
+ 
+ .software-card .btn:hover {
+   background: linear-gradient(45deg, #a015bb, #bb17d1);
+   transform: translateY(-2px);
+   box-shadow: 0 6px 20px rgba(187, 23, 209, 0.4);
+ }
+ 
+ .software-card .btn:hover::before {
+   left: 100%;
+ }
+ 
+ .software-card .btn:active {
+   transform: translateY(0);
+ }
+
+ /* Mobile responsive design */
+ @media (max-width: 768px) {
+   .software-card {
+     padding: 25px 15px;
+     margin-bottom: 20px;
+   }
+   
+   .software-card img {
+     max-width: 100px;
+     height: 100px;
+   }
+   
+   .software-card h3 {
+     font-size: 1.2em;
+   }
+   
+   .software-card .btn {
+     padding: 10px 25px;
+     font-size: 0.9em;
+   }
+ }
+
+ @media (max-width: 576px) {
+   .software-card {
+     padding: 20px 10px;
+   }
+   
+   .software-card img {
+     max-width: 80px;
+     height: 80px;
+   }
+   
+   .software-card h3 {
+     font-size: 1.1em;
+   }
+   
+   .software-card p {
+     font-size: 0.85em;
+   }
+ }
+ 
+ /* Section title styling */
+ .section-title h2 {
+   color: #333;
+   font-size: 2.5em;
+   font-weight: 700;
+   margin-bottom: 20px;
+ }
+ 
+ .software-section-title {
+   color: #bb17d1;
+   font-size: 2em;
+   font-weight: 600;
+   margin-bottom: 30px;
+   text-align: center;
+ }
+</style>
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <h1 class="sitename">M ART creations</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="service-details.html" >Services</a></li>
+          <li class="dropdown"><a href="get-from-us.html" class="active"><span>Free</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="Softwares.html">Software</a></li>
+              <li><a href="#">Fonts</a></li>
+              <li><a href="#">PSD Files</a></li>
+              <li><a href="brushes-for-free.html">Brushes</a></li>
+              <li><a href="#">Gradients</a></li>
+              <li><a href="#">Mockups</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://youtube.com/@madushan_graphic?si=QQCzO80JbJ0vTa_i" class="twitter"><i class="bi bi-youtube"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://vm.tiktok.com/ZSBYuvmty/" class="instagram"><i class="bi bi-tiktok"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <div class="page-title">
+      <div class="breadcrumbs">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house"></i> Home</a></li>
+            <li class="breadcrumb-item active current">Free From Us</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <section id="starter-section" class="starter-section section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Get It Free From Us</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>Here you can explore and download a variety of resources to enhance your creative projects.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        
+
+        <div class="row">
+          <!-- Adobe Creative Suite -->
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="software-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/2101px-Adobe_Photoshop_CC_icon.svg.png" alt="Adobe Photoshop Logo">
+              <h3>Best Softwares for Free</h3>
+              <p>Explore our curated collection of industry-leading software, all available for free download in one convenient place.</p>
+              <a href="Softwares.html" class="btn">Free Download</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="software-card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Adobe_Illustrator_CC_icon.svg/2048px-Adobe_Illustrator_CC_icon.svg.png" alt="Adobe Illustrator Logo">
+              <h3>Fonts</h3>
+              <p>Discover our curated collection of industry-best fonts, all available for free download in one convenient place.</p>
+              <a href="#" class="btn">Free Download</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="software-card">
+              <img src="https://cdn-icons-png.flaticon.com/512/1158/1158132.png" alt="Adobe Premiere Pro Logo">
+              <h3>High Quality Brushes For Free</h3>
+              <p>Professional software brushes, available for free download to elevate your digital art and design projects.</p>
+              <a href="brushes-for-free.html" class="btn">Free Download</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="software-card">
+              <img src="https://cdn-icons-png.flaticon.com/512/3214/3214398.png" alt="Adobe After Effects Logo">
+              <h3>Free Color codes</h3>
+              <p>Discover our comprehensive collection of free color codes, perfect for all your graphic design needs</p>
+              <a href="#" class="btn">Free Download</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="software-card">
+              <img src="https://www.shutterstock.com/image-vector/smooth-color-gradient-icon-logo-600nw-589145633.jpg" alt="Adobe InDesign Logo">
+              <h3>Gradiants for Free</h3>
+              <p>Explore our diverse collection of captivating free gradients. available for free download to seamlessly enhance your creative works.</p>
+              <a href="#" class="btn">Free Download</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="software-card">
+              <img src="https://cdn-icons-png.freepik.com/512/752/752453.png" alt="Adobe Audition Logo">
+              <h3>Free Psd Files</h3>
+              <p>Explore our extensive collection of high-quality, free PSD (Photoshop Document) files</p>
+              <a href="#" class="btn">Free Download</a>
+            </div>
+          </div>
+
+          <!-- Other Professional Software -->
+          
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">M Art Creations</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://youtube.com/@madushan_graphic?si=QQCzO80JbJ0vTa_i"><i class="bi bi-youtube"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href="https://vm.tiktok.com/ZSBYuvmty/"><i class="bi bi-tiktok"></i></a>
+        <a href="https://wa.me/+94742926628"><i class="bi bi-whatsapp"></i></a>
+      </div>
+      <div class="credits">
+        Designed & Developed by <a href="https://aropiccreation.com/">AroPic Creation</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
