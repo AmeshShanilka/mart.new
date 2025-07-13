@@ -156,6 +156,30 @@
      font-size: 0.85em;
    }
  }
+ .software-card .btn[href="keko-fonts.html"] {
+  background: linear-gradient(45deg, #53005a, #690092); /* Darker purple gradient */
+  box-shadow: 0 4px 15px rgba(81, 45, 168, 0.3); /* Adjust shadow to match new color */
+}
+
+.software-card .btn[href="keko-fonts.html"]:hover {
+  background: linear-gradient(45deg, #4527a0, rgb(136, 0, 129)); /* Even darker purple on hover */
+  box-shadow: 0 6px 20px rgba(81, 45, 168, 0.4); /* Adjust hover shadow */
+}
+
+.software-card .btn[href="keko-fonts.html"]::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  transition: left 0.5s ease;
+}
+
+.software-card .btn[href="keko-fonts.html"]:hover::before {
+  left: 100%;
+}
  
  /* Section title styling */
  .section-title h2 {
@@ -255,18 +279,18 @@
           <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="software-card">
-                <img src="https://www.freeiconspng.com/thumbs/font-ico/font-icon--icon-search-engine--iconfinder-1.png" alt="Adobe Illustrator Logo">
-                <h3>Fonts</h3>
-                <p>Discover our curated collection of industry-best fonts, all available for free download in one convenient place.</p>
+                <img src="assets/img/software/FONT icon-01-01.jpg"Adobe Illustrator Logo">
+                <h3>Quality Sinhala Fonts</h3>
+                <p>Discover our collection of industry-best sinhala fonts, all available for free download in one convenient place.</p>
                 <a href="https://drive.google.com/drive/folders/1aTBEfw_KxcvcCRmIZu9c6vC4CIlO4B9N?usp=sharing" class="btn">Free Download</a>
               </div>
             </div>
             <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
               <div class="software-card">
-                <img src="https://cdn-icons-png.flaticon.com/512/9967/9967681.png" alt="Adobe After Effects Logo">
-                <h3>Get Premium Fonts</h3>
-                <p>Explore premium fonts and get them at the best price.</p>
-                <a href="https://getintopc.com/softwares/graphic-design/adobe-after-effects-cc-2019-free-download-5397923/" class="btn">Get From Us</a>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvRY3z8kn8iw_sEZN72Xvx4ZCjekoupSBjolkIC1We4mSTIL9lQpTXcw7s6fmuzzK5ysM&usqp=CAU" alt="Adobe After Effects Logo">
+                <h3>KEKO FONTS</h3>
+                <p>Explore and get KEKO FONTS for the best price.</p>
+                <a href="keko-fonts.html" class="btn">Get From Us</a>
               </div>
             </div>
           </div>

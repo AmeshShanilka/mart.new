@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Get KEKO Fonts - M Art Creations</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Questrial:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    /* General Styles */
+
+
+
+
+
+
+    /* Gallery Container */
+    .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .gallery-item {
+        position: relative;
+        width: 100%;
+        max-width: 300px; /* Adjust as needed for larger screens */
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #3e2f5b; /* A lighter dark purple */
+    }
+
+    .gallery-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    }
+
+    .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .gallery-item:hover img {
+        transform: scale(1.05);
+    }
+
+    .gallery-item a {
+        display: block;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /* Image Overlay Effect */
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.6);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .gallery-item:hover .overlay {
+        opacity: 1;
+    }
+
+    .overlay-text {
+        color: #ffffff;
+        font-size: 1.5em;
+        text-align: center;
+        padding: 10px;
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+    }
+
+    /* Footer */
+
+
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+        .hero-section h1 {
+            font-size: 2em;
+        }
+
+        .gallery-item {
+            max-width: 90%; /* On smaller screens, allow items to take more width */
+        }
+    }
+
+    @media (max-width: 480px) {
+        .hero-section h1 {
+            font-size: 1.5em;
+        }
+
+        .gallery-item {
+            max-width: 95%;
+        }
+    }
+</style>
+
+  <!-- =======================================================
+  * Template Name: EasyFolio
+  * Template URL: https://bootstrapmade.com/easyfolio-bootstrap-portfolio-template/
+  * Updated: Feb 21 2025 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="starter-page-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">M ART creations</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+			<li><a href="index.html" >Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="service-details.html" >Services</a></li>
+			<li class="dropdown"><a href="get-from-us.html" class="active"><span>Free</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+			  <ul>
+				<li><a href="Softwares.html">Software</a></li>
+				<li><a href="fonts.html">Fonts</a></li>
+				<li><a href="#">PSD Files</a></li>
+				<li><a href="brushes-for-free.html">Brushes</a></li>
+				<li><a href="#">Gradients</a></li>
+				<li><a href="#">Mockups</a></li>
+				<li class="dropdown"><a href="#"><span>Empty</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+				  <ul>
+					<li><a href="#">Empty 1</a></li>
+					<li><a href="#">Empty 2</a></li>
+					<li><a href="#">Empty 3</a></li>
+					<li><a href="#">Empty 4</a></li>
+					<li><a href="#">Empty 5</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</li>
+			<li><a href="contact.html">Contact</a></li>
+		  </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://youtube.com/@madushan_graphic?si=QQCzO80JbJ0vTa_i" class="twitter"><i class="bi bi-youtube"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://vm.tiktok.com/ZSBYuvmty/" class="instagram"><i class="bi bi-tiktok"></i></a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title">
+      <div class="breadcrumbs">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html"><i class="bi bi-house"></i> Home</a></li>
+            <li class="breadcrumb-item active current">KEKO From Us</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Starter Section Section -->
+    <section id="starter-section" class="starter-section section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Get KEKO Fonts From Us</h2>
+        <div class="title-shape">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+          </svg>
+        </div>
+        <p>Explore and get KEKO FONTS for the best price.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up">
+        <div class="gallery-container">
+          <div class="gallery-item">
+              <a href="https://example.com/link1" target="_blank">
+                  <img src="assets/img/keko-images/KEKO-01.jpg" alt="Image 1">
+                  <div class="overlay">
+                      
+                  </div>
+              </a>
+          </div>
+  
+          <div class="gallery-item">
+              <a href="https://example.com/link2" target="_blank">
+                  <img src="assets/img/keko-images/KEKO 2-01-01.jpg" alt="Image 2">
+                  <div class="overlay">
+                      
+                  </div>
+              </a>
+          </div>
+  
+          <div class="gallery-item">
+              <a href="https://example.com/link3" target="_blank">
+                  <img src="assets/img/keko-images/KEKO 03.jpg" alt="Image 3">
+                  <div class="overlay">
+                      
+                  </div>
+              </a>
+          </div>
+  
+          <div class="gallery-item">
+              <a href="https://example.com/link4" target="_blank">
+                  <img src="assets/img/keko-images/KEKO 04-01.jpg" alt="Image 4">
+                  <div class="overlay">
+                      
+                  </div>
+              </a>
+          </div>
+  
+          <div class="gallery-item">
+              <a href="https://example.com/link5" target="_blank">
+                  <img src="assets/img/keko-images/KEKO 05.jpg" alt="Image 5">
+                  <div class="overlay">
+                      
+                  </div>
+              </a>
+          </div>
+      </div>
+      </div>
+
+    </section><!-- /Keko Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+		<div class="copyright text-center ">
+		  <p>© <span>Copyright</span> <strong class="px-1 sitename">M Art Creations</strong> <span>All Rights Reserved</span></p>
+		</div>
+		<div class="social-links d-flex justify-content-center">
+		  <a href="https://youtube.com/@madushan_graphic?si=QQCzO80JbJ0vTa_i"><i class="bi bi-youtube"></i></a>
+		  <a href=""><i class="bi bi-facebook"></i></a>
+		  <a href="https://vm.tiktok.com/ZSBYuvmty/"><i class="bi bi-tiktok"></i></a>
+		  <a href="https://wa.me/+94742926628"><i class="bi bi-whatsapp"></i></a>
+		</div>
+		<div class="credits">
+		  Designed & Developed by <a href="https://aropiccreation.com/">AroPic Creation</a>
+		</div>
+	  </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
